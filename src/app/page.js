@@ -37,13 +37,13 @@ export default function Home() {
       </Canvas> */}
       </div>
       <div className="">
-        <h1 className="text-2xl text-white text-center">Welcome to the future of social media</h1>
+        <h1 className="text-2xl text-white text-center">Welcome to the Gaming Hub</h1>
         <p className="text-white  text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit </p>
       </div>
       </div>
       {/* <SideMenu></SideMenu> */}
       <div className="my-20 grid grid-cols-1 md:grid-cols-2 gap-20 md:gap-0 text-white px-2 lg:px-8 relative">
-        <RotatingImages></RotatingImages>
+        {/* <RotatingImages></RotatingImages> */}
 
         <div className="flex justify-center items-center">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam minus at in perferendis inventore sit officiis quos repellendus commodi porro! Libero adipisci ullam sit doloremque nobis autem laudantium excepturi natus placeat maxime!</p>

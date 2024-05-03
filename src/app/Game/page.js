@@ -19,7 +19,7 @@ export default function Page() {
       )}
       <div className='min-h-screen'>
       <Unity
-      className='min-h-screen'
+      className='min-h-screen'  
         unityProvider={unityProvider}
         style={{ visibility: isLoaded ? "visible" : "hidden" }}
       />
