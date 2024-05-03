@@ -8,7 +8,7 @@ import supabase from "../supabase";
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
 import RotatingImages from "@/components/RotatingImages/RotatingImages";
-import BottomContainer from "@/components/BottomContainer/BottomContainer";
+import BottomBar from "@/components/BottomBar/BottomBar";
 
 export default function page() {
   const dispatch = useDispatch();
@@ -116,7 +116,7 @@ export default function page() {
         </div>
         <ToastContainer />
       </div>
-      <BottomContainer></BottomContainer>
+      <BottomBar></BottomBar>
       <Footer></Footer>
     </div>
   );

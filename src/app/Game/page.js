@@ -13,7 +13,7 @@ export default function Page() {
   return (
     <Fragment>
       {!isLoaded && (
-        <div className='flex text-white h-full w-full items-center justify-center bg-black'>
+        <div className='flex text-white h-screen w-full items-center justify-center bg-black'>
         <p>Loading Application... {Math.round(loadingProgression * 100)}%</p>
         </div>
       )}
