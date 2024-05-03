@@ -13,7 +13,7 @@ import JoinWaitList from "@/components/JoinWaitList/JoinWaitList";
 import { Canvas } from "@react-three/fiber";
 import { Loader, OrbitControls, Stars } from "@react-three/drei";
 import { Suspense } from "react";
-import Model from "./Standing.jsx";
+// import Model from "./Standing.jsx";
 import { useGLTF } from "@react-three/drei";
 import { Environment } from "@react-three/drei";
 import { AmbientLight, LoaderUtils } from "three";
@@ -28,13 +28,13 @@ export default function Home() {
       {/* <Meteors number={25} ></Meteors> */}
       <div className="flex gap-10 p-4 bg">
       <div className="w-32 h-[600px] lg:w-[600px]">
-      <Canvas>
+      {/* <Canvas>
         <ambientLight intensity={2}></ambientLight>
         <OrbitControls></OrbitControls>
         <Suspense fallback={LoaderUtils}>
           <Model scale={2}></Model>
         </Suspense>
-      </Canvas>
+      </Canvas> */}
       </div>
       <div className="">
         <h1 className="text-2xl text-white text-center">Welcome to the future of social media</h1>
